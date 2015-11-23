@@ -31,7 +31,7 @@ class Auction(item: String, bidTime: FiniteDuration, deleteTime: FiniteDuration)
   import context._
 
   context.system.scheduler.scheduleOnce(bidTime, self, BidTimerExpired)
-  val notifier = context actorSelection "akka.tcp://AuctionSystem@192.168.0.100:2551/user/Notifier"
+  val notifier = context actorSelection "akka.tcp://AuctionSystem@127.0.0.1:2551/user/Notifier"
   override def persistenceId: String = "persistent-auction-" + item.toLowerCase.replaceAll(" ","-")
 
   override def receive = created

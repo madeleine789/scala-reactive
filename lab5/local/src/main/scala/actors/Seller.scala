@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 class Seller(items : List[String]) extends Actor with ActorLogging {
   import context.dispatcher
 
-  val auctionSearch = context.actorSelection("/user/AuctionSearch").resolveOne(10 seconds)
+  val auctionSearch = context.actorSelection("akka.tcp://AuctionSystem@127.0.0.1:2551/user/AuctionSearch").resolveOne(10 seconds)
   var auctions = items.map(item => {
     val auction = context.actorOf(Props(classOf[Auction], item, 20 seconds, 10 seconds), s"${item.replaceAll(" ", "_")}")
     auctionSearch.map(_.tell(Register(item), auction)) // register every Auction with AuctionSearch

@@ -24,7 +24,7 @@ object Notifications {
 }
 
 class Notifier extends Actor with ActorLogging  {
-  val publisher = context.actorSelection("akka.tcp://AuctionPublisher@192.168.0.100:2552/user/publisher")
+  val publisher = context.actorSelection("akka.tcp://AuctionPublisher@127.0.0.1:2552/user/publisher")
   publisher ! "INIT"
   var pendingWorkers = Map[ActorRef, ActorRef]()
 

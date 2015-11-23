@@ -14,7 +14,7 @@ import scala.concurrent.duration._
 class Buyer(target: String, maxPrice: Int) extends Actor with ActorLogging {
   import context._
 
-  val auctionSearch = context actorSelection "akka.tcp://AuctionSystem@192.168.0.100:2551/user/AuctionSearch"
+  val auctionSearch = context actorSelection "akka.tcp://AuctionSystem@127.0.0.1:2551/user/AuctionSearch"
 
   auctionSearch ! Search(target)
 
