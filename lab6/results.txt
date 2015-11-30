@@ -1,0 +1,148 @@
+
+Registered: 10000
+Searched: 1000
+Slaves: 5
+Time elapsed: 0.015820038 RR
+Time elapsed: 0.017548765 SM
+
+Registered: 100000
+Searched: 10000
+Slaves: 5
+Time elapsed: 0.530147814 RR
+Time elapsed: 0.078009424 SM
+
+Registered: 100000
+Searched: 50000
+Slaves: 5
+Time elapsed: 0.752315573 RR
+Time elapsed: 0.342474521 SM
+
+Registered: 1000000
+Searched: 500000
+Slaves: 500
+Time elapsed: 12.497214579 RR
+Time elapsed: 10.74215587 SM
+
+Registered: 1000000
+Searched: 500000
+Slaves: 100
+Time elapsed: 11.774949937 RR
+Time elapsed: 6.272863642 SM
+
+Registered: 1000000
+Searched: 500000
+Slaves: 10
+Time elapsed: 19.906800285 RR
+Time elapsed: 16.106881733 SM
+
+Registered: 1000000
+Searched: 500000
+Slaves: 2
+Time elapsed: 6.889361131 RR
+Time elapsed: 6.279792914 SM
+
+Registered: 1000000
+Searched: 500000
+Slaves: 1
+Time elapsed: 3.876763723 RR
+Time elapsed: 3.661678363 SM
+
+Registered: 5000000
+Searched: 1000000
+Slaves: 50
+Time elapsed: 30.599427398 RR
+Time elapsed: 28.093674283 SM
+
+Registered: 5000000
+Searched: 1000000
+Slaves: 100
+Time elapsed: 25.766702054 RR
+Time elapsed: 27.501936452 SM
+
+Registered: 5000000
+Searched: 1000000
+Slaves: 500
+Time elapsed: 29.700583112 RR
+Time elapsed: 19.546240441 SM
+
+Registered: 5000000
+Searched: 1000000
+Slaves: 1
+Time elapsed: 9.248937353 RR
+Time elapsed: 8.77007699 SM
+
+Registered: 5000000
+Searched: 1000000
+Slaves: 10
+
+Time elapsed: 215.74887122 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 50
+Time elapsed: 12.362621916 RR
+Time elapsed: 17.291007259 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 100
+Time elapsed: 17.359424327 RR
+Time elapsed: 17.651363891 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 500
+Time elapsed: 20.00273821 RR
+Time elapsed: 17.352702782 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 10
+Time elapsed: 11.846607288 RR
+Time elapsed: 10.330053229 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 2
+Time elapsed: 5.197051764 RR
+Time elapsed: 4.147745514 SM
+
+Registered: 500000
+Searched: 1000000
+Slaves: 1
+Time elapsed: 4.345171679 RR
+Time elapsed: 3.149908576 SM
+
+Registered: 50000
+Searched: 1000000
+Slaves: 500
+Time elapsed: 22.675350117 RR
+Time elapsed: 17.418966229 SM
+
+Registered: 50000
+Searched: 1000000
+Slaves: 100
+Time elapsed: 8.9113522 RR
+Time elapsed: 8.046823389 SM
+
+
+Registered: 50000
+Searched: 1000000
+Slaves: 50
+Time elapsed: 5.209035026 RR
+Time elapsed: 5.447377518 SM
+
+Registered: 50000
+Searched: 1000000
+Slaves: 10
+Time elapsed: 3.688777199 RR
+Time elapsed: 3.273928957 SM
+
+Registered: 50000
+Searched: 1000000
+Slaves: 1
+Time elapsed: 2.378962502 RR
+Time elapsed: 2.875191408 SM
+
+
+
